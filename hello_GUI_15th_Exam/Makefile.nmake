@@ -23,7 +23,7 @@ DBG=$(BLD)\$(PRJ)g.exe
 
 INCLUDES= -I$(INC) -Ic:/usr/include -DSDL_MAIN_HANDLED
 
-LIBS=-link -LIBPATH:"c:\usr\lib\x64" $(SDL_LIBS) $(SDL_IMAGE) $(SDL_TTF) $(WIN32_LIB)
+LIBS=-link -LIBPATH:"c:\usr\lib\x86" $(SDL_LIBS) $(SDL_IMAGE) $(SDL_TTF) $(WIN32_LIB)
 
 CC=cl
 CXX=cl
